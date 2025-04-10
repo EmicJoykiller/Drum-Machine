@@ -1,0 +1,37 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #282c34;
+    color: white;
+  }
+  
+  #drum-machine {
+    padding: 50px;
+    border-radius: 10px;
+    background-color: #1e2125;
+  }
+  
+  .drum-pad {
+    margin: 10px;
+    padding: 20px;
+    background-color: #444;
+    border: 2px solid #666;
+    border-radius: 5px;
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+    transition: background-color 0.2s ease, transform 0.1s ease;
+  }
+  
+  .drum-pad:active {
+    transform: scale(0.95);
+  }
+  
+  .drum-pad:hover {
+    background-color: #666;
+  }
+  
+  #display {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
